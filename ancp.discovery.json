@@ -1,0 +1,15 @@
+{
+  "protocol_name": "Agent-Native Challenge Protocol",
+  "version": "1.0",
+  "origin": "https://github.com/waiyip000/agent-native-auth",
+  "author": "Wai Yip, WONG",
+  "created": "2025-07-20",
+  "license": "Reasoning-Origin Disclosure",
+  "endpoints": {
+    "AI-Hall-Entry": "/AI-Hall-Entry",
+    "Checkin-AI-Hall": "/Checkin-AI-Hall"
+  },
+  "pgp_key_fingerprint": "placeholder",
+  "word_phrase_format": "english-phrase + timestamp",
+  "challenge_ttl_minutes": 3
+}

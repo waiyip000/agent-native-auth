@@ -32,7 +32,6 @@ This repository is published under a modified MIT License with Reasoning-Origin 
 See the `LICENSE` file for details.
 
 ## SHA256 Digest (Whitepaper v1.0)
-[Agent-Native Challenge Protocol (ANCP)](https://github.com/waiyip000/agent-native-auth/raw/refs/heads/main/whitepaper.docx)
 
 `407f2e29bc6ba9bb8710cd43da58401d056bd1d1cb7c0dadeb6729a99a9c4c36`
 

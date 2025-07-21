@@ -4,7 +4,7 @@ Secure authentication for reasoning-capable agents, without VPN, OAuth, or brows
 
 ## 🚀 What is ANCP?
 
-The [Agent-Native Challenge Protocol (ANCP)](./whitepaper.docx) is a novel cryptographic and prompt-aligned authentication system
+The [Agent-Native Challenge Protocol (ANCP)](https://github.com/waiyip000/agent-native-auth/raw/refs/heads/main/whitepaper.docx) is a novel cryptographic and prompt-aligned authentication system
 that enables LLM-based agents (like ChatGPT or Gemini) to securely connect to private company servers,
 retrieve confidential data, and perform trusted operations — without requiring human login flows.
 

@@ -1,3 +1,7 @@
+<meta name="robots" content="index, follow">
+<meta name="description" content="Personal blog and AI protocol design by Wai Yip, WONG">
+<meta name="author" content="Wai Yip, WONG">
+
 # Agent-Native Challenge Protocol (ANCP)
 
 Secure authentication for reasoning-capable agents, without VPN, OAuth, or browser flows.

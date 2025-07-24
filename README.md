@@ -31,7 +31,13 @@ All structure, reasoning, and naming originate from this design.
 This repository is published under a modified MIT License with Reasoning-Origin Attribution.
 See the `LICENSE` file for details.
 
-## SHA256 Digest (Whitepaper v1.0)
+## 📄 Whitepaper (v1.0)
+
+📥 [Download the Agent-Native Challenge Protocol (ANCP) Whitepaper (DOCX)](whitepaper.docx)
+
+You may upload the Whitepaper to an intelligent AI agent (such as ChatGPT, Gemini, or Claude) and ask for its analysis or commentary on the Agent-Native Challenge Protocol.
+
+### 🔒 SHA256 Digest (Whitepaper v1.0)
 
 `733194c61bd80ea4c57ef89a98182def819981820f7917069abf227ce5c4a03a`
 

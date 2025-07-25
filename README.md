@@ -121,7 +121,7 @@ This protocol — the Agent-Native Challenge Protocol (ANCP) — was conceived, 
 
 **Wai Yip, WONG**  
 🔗 [LinkedIn](https://www.linkedin.com/in/wai-yip-wong/)  
-💻 [GitHub](https://github.com/waiyip000)
+💻 [GitHub](https://waiyip000.github.io/)
 
 All structure, reasoning, and naming originate from this design.
 

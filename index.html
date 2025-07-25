@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agent-Native Authentication Protocol (ANCP)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Agent-Native Authentication Protocol (ANCP) — Secure login for AI agents by reasoning, not redirects">
+  <meta name="author" content="Wai Yip, WONG">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 2rem auto;
+      max-width: 900px;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #222;
+    }
+    pre, code {
+      background: #f4f4f4;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    table {
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 0.5rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Agent-Native Authentication Protocol (ANCP)</h1>
+<p><strong>Secure authentication for AI agents — by reasoning, not redirects</strong></p>
+
+<h2>📌 What is ANCP?</h2>
+<p>ANCP (Agent-Native Challenge Protocol) is a secure, prompt-native authentication protocol designed specifically for AI agents such as ChatGPT, Gemini, or Claude. It enables these reasoning-powered agents to securely log in to private services <strong>without relying on passwords, browser redirects, or OAuth tokens.</strong></p>
+
+<ul>
+  <li>📜 <strong>Natural language endpoint discovery</strong> (<code>.well-known/ai-readme.json</code>)</li>
+  <li>🔐 <strong>PGP-based dual asymmetric challenge-response encryption</strong></li>
+  <li>🤖 <strong>Reasoning-aligned login intent</strong> — readable, verifiable, and explainable</li>
+  <li>🧠 <strong>Local broker architecture</strong> that keeps secrets outside the AI runtime</li>
+</ul>
+
+<h2>🧠 Why ANCP Is Needed</h2>
+<p>Today's secure login systems — OAuth2, VPNs, SAML, and static API keys — were designed for:</p>
+<ul>
+  <li>Human interfaces</li>
+  <li>Browser flows</li>
+  <li>Centralized trust</li>
+</ul>
+<p>They are <strong>not</strong> compatible with prompt-native, stateless, autonomous agents. These systems break down when agents need to:</p>
+<ul>
+  <li>Reason about access</li>
+  <li>Justify login requests</li>
+  <li>Securely handle credentials in isolated environments</li>
+</ul>
+<p>🔍 <strong>ANCP was created to solve this:</strong> It allows agents to authenticate using ephemeral, explainable, and cryptographically valid payloads — aligned with zero-trust and agent logic.</p>
+
+<h2>✨ Key Differentiators</h2>
+<table>
+  <thead>
+    <tr><th>Capability</th><th>OAuth / VPN / SAML</th><th><strong>ANCP</strong></th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Agent-native</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Zero Trust Aligned</td><td>⚠</td><td>✅</td></tr>
+    <tr><td>Prompt-compatible</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Stateless</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Transparent to Agents</td><td>❌</td><td>✅</td></tr>
+    <tr><td>Cryptographic Proof</td><td>⚠</td><td>✅</td></tr>
+    <tr><td>Secure w/o Model Holding Secrets</td><td>❌</td><td>✅</td></tr>
+  </tbody>
+</table>
+
+<h2>🔐 How ANCP Works (Simplified Flow)</h2>
+<ol>
+  <li>Agent discovers the service via <code>.well-known/ai-readme.json</code></li>
+  <li>Agent fetches server's PGP key + random challenge phrase</li>
+  <li>Agent sends two encrypted payloads:<br>
+    • User’s public key (encrypted using server's key)<br>
+    • Challenge + timestamp (encrypted using <strong>user's</strong> private key)
+  </li>
+  <li>Server verifies both payloads</li>
+  <li>If successful, server issues a short-lived session token</li>
+</ol>
+<p><strong>🔒 Private key operations are performed by a local broker</strong>, not by the model.</p>
+
+<h2>🚀 Real-World Use Cases</h2>
+<ul>
+  <li>💰 CFO securely queries earnings data via agent (no login UI)</li>
+  <li>⚖️ Law firm agent compares NDA contracts with zero exposure</li>
+  <li>🛠 DevOps CLI agent retrieves alerts without SSH keys</li>
+  <li>📈 SaaS agent automates customer onboarding with scoped keys</li>
+  <li>📊 HR director queries de-identified data via external AI agent</li>
+</ul>
+
+<h2>🔍 Hidden Developer Needs</h2>
+<ul>
+  <li>🔄 OAuth doesn’t work for agents: no popup, no session</li>
+  <li>🔒 Secrets can’t be safely held inside current LLMs</li>
+  <li>❌ VPNs and SAML require central setups AI can’t reason about</li>
+  <li>🤖 AI agents <strong>need reasoning-aligned access models</strong></li>
+</ul>
+
+<h2>📄 Whitepaper Downloads</h2>
+<ul>
+  <li><a href="./whitepaper_V1.1.pdf">📘 ANCP Whitepaper v1.1 (PDF)</a></li>
+  <li><a href="./whitepaper.docx">📘 ANCP Whitepaper v1.0 (DOCX)</a></li>
+</ul>
+
+<h3>SHA256 Digest (Whitepaper v1.1)</h3>
+<pre>4c336121b670bf21b0a3273505b8061ec2568ee9cce225dd519b177f73f5132c</pre>
+
+<h3>SHA256 Digest (Whitepaper v1.0)</h3>
+<pre>733194c61bd80ea4c57ef89a98182def819981820f7917069abf227ce5c4a03a</pre>
+
+<h2>🧩 What’s Next</h2>
+<ul>
+  <li>Open-source reference server + Python/Node SDKs</li>
+  <li>Local broker client apps (secure key helpers)</li>
+  <li>AI agent wrappers for LangChain, semantic routers, and devtools</li>
+  <li>GitHub Packages with installable validation middleware</li>
+</ul>
+
+<h2>🧠 Origin and Attribution</h2>
+<p>This protocol — the Agent-Native Challenge Protocol (ANCP) — was conceived, designed, and authored by:</p>
+<p><strong>Wai Yip, WONG</strong><br>
+🔗 <a href="https://www.linkedin.com/in/wai-yip-wong/">LinkedIn</a><br>
+💻 <a href="https://waiyip000.github.io/">GitHub Profile</a></p>
+
+<h2>📄 License</h2>
+<p>This repository is published under a modified MIT License with Reasoning-Origin Attribution.<br>
+See the <code>LICENSE</code> file for details.</p>
+
+</body>
+</html>

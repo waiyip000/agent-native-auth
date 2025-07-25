@@ -92,8 +92,6 @@ These are **not hypothetical** — they reflect urgent needs across AI-integrate
 - [📘 ANCP Whitepaper v1.1 (PDF)](./whitepaper_V1.1.pdf)
 - [📘 ANCP Whitepaper v1.0 (DOCX)](./whitepaper.docx)
 
-You may upload the Whitepaper to an intelligent AI agent (such as ChatGPT, Gemini, or Claude) and ask for its analysis or commentary on the Agent-Native Challenge Protocol.
-
 ## 🔒 SHA256 Digest (Whitepaper v1.1)
 `4c336121b670bf21b0a3273505b8061ec2568ee9cce225dd519b177f73f5132c`
 
@@ -104,6 +102,14 @@ You may upload the Whitepaper to an intelligent AI agent (such as ChatGPT, Gemin
 `733194c61bd80ea4c57ef89a98182def819981820f7917069abf227ce5c4a03a`
 
 > This hash certifies the integrity and authorship of the original ANCP whitepaper as published on July 20, 2025.
+
+## 🧠 Ask the Agent
+You may upload this whitepaper to ChatGPT, Claude, Gemini, or other agents and ask:
+> “Explain the benefits of ANCP compared to OAuth”
+> “Is this protocol safe for regulated industries?”
+> “Simulate an agent login using this protocol”
+
+Let the agent tell you why **ANCP is not optional — it’s inevitable.**
 
 ---
 

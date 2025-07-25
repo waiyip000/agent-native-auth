@@ -105,9 +105,9 @@ These are **not hypothetical** — they reflect urgent needs across AI-integrate
 
 ## 🧠 Ask the Agent
 You may upload this whitepaper to ChatGPT, Claude, Gemini, or other agents and ask:
-> “Explain the benefits of ANCP compared to OAuth”
-> “Is this protocol safe for regulated industries?”
-> “Simulate an agent login using this protocol”
+- “Explain the benefits of ANCP compared to OAuth”
+- “Is this protocol safe for regulated industries?”
+- “Simulate an agent login using this protocol”
 
 Let the agent tell you why **ANCP is not optional — it’s inevitable.**
 

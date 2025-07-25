@@ -4,7 +4,7 @@
 
 # Agent-Native Authentication Protocol (ANCP)
 
-**Secure authentication for AI agents — by reasoning, not redirects**
+**Secure authentication for AI agents, without VPN, OAuth, or browser flows.**
 
 ---
 

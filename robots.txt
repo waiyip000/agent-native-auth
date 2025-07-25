@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+https://github.com/waiyip000/agent-native-auth/sitemap.xml

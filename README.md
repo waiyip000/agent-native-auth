@@ -89,7 +89,7 @@ These are **not hypothetical** — they reflect urgent needs across AI-integrate
 
 ## 📄 Whitepaper Downloads
 
-- [📘 ANCP Whitepaper v1.1 (PDF)](./whitepaper_v1.1.pdf)
+- [📘 ANCP Whitepaper v1.1 (PDF)](./whitepaper_V1.1.pdf)
 - [📘 ANCP Whitepaper v1.0 (DOCX)](./whitepaper.docx)
 
 You may upload the Whitepaper to an intelligent AI agent (such as ChatGPT, Gemini, or Claude) and ask for its analysis or commentary on the Agent-Native Challenge Protocol.

@@ -2,6 +2,10 @@
 <meta name="description" content="Personal blog and AI protocol design by Wai Yip, WONG">
 <meta name="author" content="Wai Yip, WONG">
 
+---
+📄 This document is also available in [**Cantonese 中文（廣東話）** ➜](./README.zh-yue.md)
+---
+
 # Agent-Native Authentication Protocol (ANCP)
 
 **Secure authentication for AI agents, without VPN, OAuth, or browser flows.**

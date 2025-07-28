@@ -97,7 +97,7 @@ These are **not hypothetical** — they reflect urgent needs across AI-integrate
 - [📘 ANCP Whitepaper v1.0 (DOCX)](./whitepaper.docx)
 
 ## 🔒 SHA256 Digest (Whitepaper v1.1)
-`4c336121b670bf21b0a3273505b8061ec2568ee9cce225dd519b177f73f5132c`
+`932384cac6d00794b120aba57cbc827a5fa5b210c23c32850c29a634099730a8`
 
 > This hash certifies the authorship and cryptographic integrity of the ANCP whitepaper as published July 25, 2025.
 

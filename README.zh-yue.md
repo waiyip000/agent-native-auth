@@ -99,6 +99,17 @@ ANCP，全名係 Agent-Native Challenge Protocol，係專登幫啲 AI（例如 C
 
 SHA256 哈希都放咗落嚟，唔驚你驗唔到真。
 
+## 🔒 SHA256 Digest (Whitepaper v1.1)
+`932384cac6d00794b120aba57cbc827a5fa5b210c23c32850c29a634099730a8`
+
+> This hash certifies the authorship and cryptographic integrity of the ANCP whitepaper as published July 25, 2025.
+
+## 🔒 SHA256 Digest (Whitepaper v1.0)
+
+`733194c61bd80ea4c57ef89a98182def819981820f7917069abf227ce5c4a03a`
+
+> This hash certifies the integrity and authorship of the original ANCP whitepaper as published on July 20, 2025.
+
 ---
 
 ## 🧠 想知更多？

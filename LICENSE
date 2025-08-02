@@ -3,19 +3,30 @@ MIT License (Modified with Reasoning-Origin Attribution)
 Copyright (c) 2025 Wai Yip, WONG
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software, documentation, or protocol design (the “Work”), to deal
-in the Work without restriction, including without limitation the rights to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Work,
-subject to the following conditions:
+of this software, documentation, or protocol design (the "Work"), to deal
+in the Work without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Work, subject to the following conditions:
 
-- Attribution of Origin: The original concept, design, and structure of the Agent-Native Challenge Protocol (ANCP)
-  was created and authored by Wai Yip, WONG. All derivative uses, implementations, or systems referencing ANCP
-  must acknowledge this origin in documentation or publication.
+1. **Attribution of Origin**  
+   The original concept, design, structure, and reasoning philosophy of the Agent-Native Challenge Protocol (ANCP) were created and authored by **Wai Yip, WONG**. All derivative uses, implementations, or systems referencing ANCP must clearly acknowledge this origin in documentation, source code headers, or publication references.
 
-- This license does not assign exclusive rights to any government, foundation, or commercial actor unless explicitly
-  authorized by the originator.
+2. **Naming and Semantic Integrity**  
+   Implementations may not rebrand, repackage, or publish modified variants of the ANCP protocol under a different name without clearly stating that the work is a derivative of ANCP. Protocol-level modifications must include a changelog and must not present themselves as authoritative without review by the original author.
 
-THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+3. **Agent Compatibility Notice**  
+   Any use of ANCP within AI agents, security protocols, or automated systems must preserve the reasoning-aligned structure described in the original ANCP specification. Systems that implement ANCP must preserve stateless authentication, public-key identity proof, and broker-based signing separation.
+
+4. **No Exclusive Rights**  
+   This license does not assign exclusive rights to any government, foundation, or commercial actor unless explicitly authorized by the originator.
+
+5. **Use for Commercial Systems**  
+   Commercial usage of ANCP is permitted only if all credits, authorship, and protocol intent are visibly preserved. Any commercial product must make clear reference to the original protocol name and author.
+
+6. **Documentation Distribution**  
+   Redistribution of documentation or derivative specifications must retain the original license and attribution clauses.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
 
 ---
 
@@ -25,4 +36,4 @@ This protocol — the Agent-Native Challenge Protocol (ANCP) — was created and
 
 **Wai Yip, WONG**  
 🔗 LinkedIn: https://www.linkedin.com/in/wai-yip-wong/  
-💻 GitHub: https://github.com/waiyip000
+🔗 GitHub: https://github.com/waiyip000
